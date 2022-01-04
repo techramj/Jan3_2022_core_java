@@ -1,0 +1,23 @@
+
+public class MyDate {
+	int dd;
+	int mm;
+	int yy;
+	
+	//default constructor
+	MyDate(){
+		System.out.println("insde MyDate()");
+	}
+	
+	void init(int d, int m, int y) {
+		System.out.println("inside init method");
+		dd=d;
+		mm=m;
+		yy=y;
+	}
+	
+	void printDate() {
+		System.out.println(dd+"/"+mm+"/"+yy);
+	}
+
+}

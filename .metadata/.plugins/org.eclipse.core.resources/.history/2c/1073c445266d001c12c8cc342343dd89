@@ -1,0 +1,22 @@
+
+public class MyDate {
+	int dd;
+	int mm;
+	int yy;
+
+	
+	
+	//paramterized constructor
+	MyDate(int d, int m, int y){
+		System.out.println("insde MyDate(int,int,int)");
+		dd=d;
+		mm=m;
+		yy=y;
+	}
+	
+	
+	void printDate() {
+		System.out.println(dd+"/"+mm+"/"+yy);
+	}
+
+}

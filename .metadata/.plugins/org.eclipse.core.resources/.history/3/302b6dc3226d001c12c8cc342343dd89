@@ -1,0 +1,16 @@
+
+public class Test {
+	
+	public static void main(String[] args) {
+		MyDate today;
+		today = new MyDate();
+		
+		System.out.println(today.dd+"/"+today.mm+"/"+today.yy);
+		
+		MyDate tomorrow = new MyDate();
+		System.out.println(tomorrow.dd+"/"+tomorrow.mm+"/"+tomorrow.yy);
+		
+		
+	}
+
+}

@@ -1,0 +1,54 @@
+Pre testing
+Post testing
+
+for
+while
+
+for(int i=1;i<=10;i++){
+
+}
+
+while(i<=10){
+
+}
+
+do while
+
+do{
+
+}while(cond);
+
+
+
+break;
+continue;
+
+
+fIbb:
+// 0 1 1 2 3 5 8 13 21 34
+ 0 + 1 = 1
+ 1 + 1 = 2
+ 1 + 2 = 3
+ 2 + 3 = 5
+ 3 + 5 = 8
+ 
+ fibb(x)  x=1 then 0
+          x=2 then 1
+          x>2 then fibb(x-2) + fibb(x-1)
+ 
+ 
+ sumOfDig(x)  x<10 then x
+              x>=10 then x%10 + sumOfDig(x/10)
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+

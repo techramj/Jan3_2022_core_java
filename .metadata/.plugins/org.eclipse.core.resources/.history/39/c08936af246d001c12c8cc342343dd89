@@ -1,0 +1,10 @@
+
+public class Test1 {
+	
+	public static void main(String[] args) {
+		MyDate d1=new MyDate();
+		d1.init(1, 1, 2002);
+		d1.printDate();
+	}
+
+}
