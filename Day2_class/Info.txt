@@ -1,0 +1,55 @@
+MyFirstClass  class
+myFirstMethod  method
+myFirstVariable  variable
+
+getMyFirstVariable
+setMyFirstVariable
+
+
+Use of this reference:
+1. remove shadowing
+2. chaining of constructor
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lab:
+
+Create one class Employee
+
+id	
+name
+basicSalary
+hra  =40% of basicSalary 
+PF   = 10% of bs
+DRA  = 5% of bs
+
+
+--default & parameterized constructor
+--setter and getter 
+-- computeNetSalary => bs+hra+dra-pf
+
+3 object
+default 
+2 parameterized
+
+
+
+
+
+
+
+
+
+
+
+

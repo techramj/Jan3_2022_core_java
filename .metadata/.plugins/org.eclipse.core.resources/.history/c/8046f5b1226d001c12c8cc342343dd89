@@ -1,9 +1,0 @@
-
-public class MyDate {
-	int dd;
-	int mm;
-	int yy;
-	
-	
-
-}

@@ -14,6 +14,13 @@ public class Test1 {
 		//System.out.println(d2.yy);
 		System.out.println(d2.getYear());
 		
+		MyDate d3=new MyDate(1,1,2001);
+		MyDate d4=new MyDate(2,2,2004);
+		
+	}
+	
+	public static void swap(MyDate d1, MyDate d2) {
+		
 	}
 
 }

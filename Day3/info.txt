@@ -1,0 +1,11 @@
+Array:
+
+It is first class object.
+
+int arr[][]  = new int[2][3];  //valid
+int barr1[][] = new int[2][];   //valid
+int carr[][] = new int[][3];   //invalid
+int darr[][] = new int[][];    //invvalid
+
+bar1[0] = new int[4,5,6,7,89];
+barr[1]= new int[]{2,3};

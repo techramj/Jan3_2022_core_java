@@ -1,0 +1,115 @@
+class:
+abstraction: properties(instance member, object variable, data  and behaviour(method)
+encapsulation: private and providing interface by using setter and getter
+
+int id;   int getId()
+void setId(int id);
+
+
+public/private
+this
+
+Employee e1 = new Employee();
+Employee e2 = new Employee();
+Employee e3 = new Employee();
+
+e1.display();
+e2.display();
+
+
+package:
+
+folder:
+
+old_movie
+
+
+new_move
+
+pkg1              pkg2
+Employee          Main
+
+
+Access specifier
+1. public
+2. protected
+3. default
+4. private
+
+
+pkg1
+  pkg2r
+     pkg3
+        Abc
+        
+import pkg1.pkg2.pkg3.Abc;
+import mypkg;
+
+
+
+pkg3       pkg4
+MyDate    MyDate
+
+
+pkg2
+Test
+
+
+Method overloading:
+same name and different signature.
+
+1. no. of parameter
+2. type of paramter
+3. sequence in which parameter passed
+
+note: signature doesn't depend on return type
+
+public void add(int x, int y){}
+public int add(int x, int y){}
+
+
+Containment
+one object having another object.
+
+Car has a Engine.
+Employee has an address;
+
+
+
+Assignment:
+  Employee
+    private int id;
+	private String name;
+	private double salary;
+	private SocailProfile profile;   //facebook,instrgram, twitter, Link  enum
+	private Weekday[] workingDays;  enum
+	private Address address;     class
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
