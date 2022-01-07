@@ -1,0 +1,40 @@
+      						public    protected   default    private
+ same class  				y			y			y			y
+ diff class same pkg        Y			Y			Y			N	
+ subclass diff pkg          Y			Y			N			N
+ diff class diff pkg		Y			N			N			N
+ 
+ 
+ 
+ 
+ Employee
+   computeSalary(){}
+ 
+ Manager
+ 	computeSalary(){}
+ 	getBonus(){}
+ 
+ SalesManager
+ 	computeSalary(){}
+ 	computeIncentive();
+ 	
+ 	
+Employee e =new Employee();
+e= new Manager();
+e = new SalesManager();
+
+e.computeSalary();
+
+e=new Manager();
+((Manager)e).getBonus();
+
+
+Manager m=new Manager();
+m = new SalesMamager();
+
+Mydate d =new Mydate();
+d.display();
+
+SalesManager sm = new SalesManager();
+sm = new Employee(); //not possible
+sm = new Manager();  //not possible

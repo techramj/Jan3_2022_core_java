@@ -84,7 +84,7 @@ Assignment:
 	private SocailProfile profile;   //facebook,instrgram, twitter, Link  enum
 	private Weekday[] workingDays;  enum
 	private Address address;     class
-	
+	 
 	
 	
 	

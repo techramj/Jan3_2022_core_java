@@ -1,21 +1,20 @@
-package com.easylearning;
+package com.easylearning.model;
 
 public class Employee {
-
+	
 	private int id;
 	private String name;
 	private double salary;
-	private Address address;
-
+	
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Employee(int id, String name, double salary, Address address) {
+	public Employee(int id, String name, double salary) {
+		super();
 		this.id = id;
 		this.name = name;
 		this.salary = salary;
-		this.address = address;
 	}
 
 	public int getId() {
@@ -41,17 +40,14 @@ public class Employee {
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
-
-	public Address getAddress() {
-		return address;
-	}
-
-	public void setAddress(Address address) {
-		this.address = address;
+	
+	public double computeSalary() {
+		return salary;
 	}
 	
-	public void setNoOfSubordinate(int noOfSubordinate) {
-		
+	public void display() {
+		System.out.println("Id: "+id+"  Name: "+name+"   salary:"+salary);
 	}
+	
 
 }

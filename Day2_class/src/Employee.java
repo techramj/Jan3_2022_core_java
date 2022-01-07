@@ -4,8 +4,8 @@ public class Employee {
 	private int id;
 	private String name;
 	private double salary;
-	private SocailProfile profile;   //facebook,instrgram, twitter, Link
-	private Weekday[] workingDays;
+	
+	
 	
 	public Employee() {
 		this(0,"no name",1000);
@@ -29,8 +29,6 @@ public class Employee {
 		System.out.println("id: "+this.id+" Name:"+this.name+"  salary:"+salary);
 	}
 	
-	public static void foo() {
-
-	}
+	
 
 }
