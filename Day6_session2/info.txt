@@ -1,0 +1,76 @@
+Overloading													
+same name different signature and not depend upon return type
+same class or in subclass
+compile time polymorhphism
+
+
+
+Overriding
+same name same signature and same return type  => covariant return type
+inheritance 
+runtime polymorphism
+
+Object:
+finalize()
+hashcode()
+toString() => clasname@hashcode
+equals()  
+
+
+
+package pkg1;
+
+public class Cricket{
+  public int noOfover =50;
+  
+  public Cricket(){}
+  
+  Cricket(int over){}
+  
+  public int getNoOfOVer(){
+      return noOfover;  
+  }
+  
+}
+
+
+package pkg2;
+import pkg1.*;
+
+class T20 extends Cricket{
+  public int noOfOver = 20;
+  
+  
+  public int getNoOfOVer(){
+      return noOfover;  
+  }
+
+}
+
+Cricket c1 =new Crikcet();  //yes   
+Cricket c2 =new T20();      //yes
+
+T20 t1 =new Crikcet();    //No
+T20 t2 =new T20();        //Yes
+
+sysout(c1.noOfover);  //50
+sysout(c2.noOfover);  //50
+sysout(t2.noOfover);  //20
+
+sysout(c1.getNoOfOver()); //50
+sysout(c2.getNoOfOver());  //20
+sysout(t2.getNoOfOver());  //20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
