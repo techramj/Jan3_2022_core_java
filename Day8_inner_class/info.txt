@@ -1,0 +1,5 @@
+Inner class type
+1. Simple inner class
+2. static inner class
+3. Local inner class
+4. Annoynomous Inner class

@@ -18,6 +18,8 @@ equals()
 
 
 
+
+
 package pkg1;
 
 public class Cricket{
@@ -60,6 +62,7 @@ sysout(t2.noOfover);  //20
 sysout(c1.getNoOfOver()); //50
 sysout(c2.getNoOfOver());  //20
 sysout(t2.getNoOfOver());  //20
+ 
 
 
 

@@ -1,0 +1,141 @@
+Object class method:
+
+int hashcode() 
+String toString()
+boolean equal(Object o)
+void finalize()
+String getClass()
+
+
+
+
+clone()
+
+wait()
+notify()
+notifyAll()
+
+
+Manager extends Employee
+
+Employee extends Object.
+
+
+final can be used
+-------------------
+1. before variable => constant
+2. before method  => cannot override the method
+3. before class   => cannot extends the class
+
+
+
+Inheritance:
+
+Type of inheritance:
+
+1.simple inheritance
+
+A
+
+B
+
+2. Multiple Inheritance
+
+A      B
+
+   C
+   
+   
+3. Multilevel inheritence
+    A
+    
+    B
+    
+    C
+    
+ 4. hierachy inheritance
+ 
+        A
+        
+     B      C
+     
+     
+     
+
+
+class A               class X
+foo1()               foo1(){} 
+
+
+class B extends A,X  //not allowed in Java
+
+B ob =new B();
+ob.foo1();
+
+
+Shape
+  area(){}
+  perimeter()
+
+Rectangle
+   area()
+
+
+Circle
+
+
+
+
+Test:
+1. MyDate
+    dd, mm, yy
+    
+
+		MyDate d1= new MyDate(1/12/2020); +6
+		d1.isLeapYear();
+		d1.setDd(45); ==>dd=1 
+		                 mm=1
+		                 yy=2001
+		                 
+		     31 jan ->29-feb
+		                 
+		 validation of DD, MM, YY
+		 if dd and mm is invalid the set the default value to 1
+		
+		
+		API of date:
+		nextDay();
+		isLeapYear();
+		lastDay()
+		addMonths(int x){
+		}
+		override equals, hashcode and toString
+
+
+
+Program2:
+write class Shape, Rectanlge, Circle, Square
+override equals, hashcode and toString
+
+Test class
+Create 2 object of each. one with default and parameterized
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

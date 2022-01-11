@@ -1,0 +1,34 @@
+inferface
+
+interface Printable{
+   void print();
+}
+
+
+Circle, Employee
+
+main(){
+  Employee e1;
+  Manager m1
+  SM  sm1
+  Circle c1 
+  Rectangle r1
+  Shape s1 = new Rectagle();
+  Shape s2 = new Circle();
+  Test t1 = new Test();
+  
+  print(e1);
+  print(m1);
+  print(sm1);
+  print(c1);
+  print(r1); //
+  print(s1);
+  print(s2);   
+ 
+}
+
+
+public static void print(Printable p){
+  p.print();
+}
+
