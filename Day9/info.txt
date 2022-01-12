@@ -1,0 +1,21 @@
+immutable : string
+mutable " StringBuffer, StringBuilder
+
+A
+AB
+ABC
+ABCD
+ABCDE
+.
+.
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+primitive type
+int			Integer
+long		Long
+float		Float
+double		Double
+byte		Byte
+short		Short
+char		Character
+boolean		Boolean
