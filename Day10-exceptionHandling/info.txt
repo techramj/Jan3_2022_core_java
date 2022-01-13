@@ -1,0 +1,39 @@
+Error:
+1. Compile time error
+2. Runtime error
+3. Logical error
+4. Linker error
+
+
+
+Rule of multicatch:
+        A <-B <-c
+        
+       catch(A|B|C e){}
+
+
+
+
+                     Throwable
+           Error       					Exception
+                                      checked     unchecked(RuntimeExeception)
+                                      
+                                      
+                                      
+                                      
+
+
+try{}catch(Expection e){}
+
+try{}catch(Expection e){}finally{}
+
+
+try{}finally{}
+           
+           
+Exection
+1. try
+2. catch
+3. finally
+4. throws
+4. throw
