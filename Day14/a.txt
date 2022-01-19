@@ -1,0 +1,1 @@
+This is demo to write on the file using print writer object!!!!!!!!!!
